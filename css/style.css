@@ -1,0 +1,426 @@
+/* Start Main Rules */
+
+
+
+
+* {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #000;
+    color: #fff;
+    box-sizing: border-box;
+    /* height: 1000px; */
+}
+.container {
+    width:980px;
+    margin: 0px 0 0 160px;
+}
+/* End Main Rules */
+/* Start NavBar */
+.nav {
+    position: fixed;
+    width: 120px;
+    text-align: center;
+    background-color: #222;
+    height: 100%;
+    top: 0;
+}
+.nav img {
+    width: 100%;
+    margin-bottom: -4px;
+}
+.nav .frst-dv {
+    background-color: #000;
+}
+.nav i {
+    display: block;
+    color: #fff;
+    background-color: transparent;
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+.nav div {
+    padding: 18px;
+    background-color: #222;
+    text-transform: uppercase;
+}
+.nav div a {
+    text-decoration: none;
+    font-size: 13px;
+}
+.nav .frst-dv:hover {
+    background-color: #ccc;
+}
+.nav div:hover {
+    background-color: #000;
+}
+/* End NavBar */
+/* Start Header */
+.header {
+    text-align: center;
+    margin-bottom: 100px;
+}
+.header h2 {
+    font-size: 64px;
+    padding-top: 10px;
+    margin-bottom: 30px;
+    font-weight: 400;
+}
+.header p {
+    font-size: 15px;
+}
+/* End Header */
+/* Start About */
+.about .my-name h2 {
+    font-weight: 400;
+    font-size: 30px;
+}
+.about .my-name hr {
+    width: 200px;
+    opacity: 0.60;
+    border: 0;
+    border-top: 1px solid #eee;
+    margin: 20px 0;
+}
+.about .my-name p {
+    color: #757575;
+    line-height: 1.5;
+    font-size: 15px;
+    text-align: justify;
+}
+.about .my-skills h2 {
+    font-weight: 400;
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+.about .my-skills div {
+    letter-spacing: 4px;
+    color: #757575;
+    margin: 10px 0 20px;
+}
+.about .my-skills div .nd {
+    display: block;
+    height: 30px;
+    margin: 10px 0 ;
+    background-color: #fff;
+}
+.about .my-skills div .nd .frst-span {
+    display: block;
+    background-color: #616161;
+    width: 95%;
+    height: 100%;
+}
+.about .my-skills div .nd .scnd-span {
+    display: block;
+    background-color: #616161;
+    width: 85%;
+    height: 100%;
+}
+.about .my-skills div .nd .lst-span {
+    display: block;
+    background-color: #616161;
+    width: 80%;
+    height: 100%;
+}
+.about .clients {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f1f1f1;
+    color: #000;
+    margin-top: 35px;    
+}
+.about .clients div {
+    padding: 45px;
+    color: #000;
+    background-color: #f1f1f1;
+    text-align: center;
+    font-size: 24px;
+    margin: 0 34px 0;
+}
+.about .clients span {
+    display: block;
+    text-align: center;
+    background-color: #f1f1f1;
+    color: #000;
+    font-size: 15px;
+}
+.about button {
+    margin-top: 35px;
+    padding: 12px 24px;
+    background-color: #f1f1f1;
+    color: #000;
+    border: none;
+    cursor: pointer;
+}
+.about button:hover {
+    background-color: #ccc;
+}
+.about button i {
+    background-color: #f1f1f1;
+    color: #000;
+    margin-right: 6px;
+    font-size: 15px;
+    text-align: center;
+}
+.about .my-price {
+    margin-top: 50px;
+}
+.about .my-price h2 {
+    font-weight: 400;
+    font-size: 24px;
+    margin-bottom: 25px;
+}
+.about .my-price .flx {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.about .my-price .basic {
+    width: 49%;
+    background-color: #fff;
+    opacity: 0.60;
+}
+.about .my-price .basic:hover {
+    opacity: 1;
+}
+.about .my-price .basic ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.about .my-price .basic ul li {
+    background-color: #fff;
+    color: #757575;
+    padding: 20px;
+    font-size: 15px;
+    border-bottom: 1px solid #ddd;
+}
+.about .my-price .basic ul .frst-li {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #616161;
+    color: #fff;
+    font-size: 24px;
+}
+.about .my-price .basic ul .lst-li {
+    padding-top: 30px;
+    padding-bottom: 15px;
+    font-weight: 400;
+    font-size: 30px;
+}
+.about .my-price .basic ul .lst-li span {
+    background-color: #fff;
+    color: #757575;
+    font-weight: normal;
+    font-size: 15px;
+
+}
+.about .my-price .basic button {
+    margin-bottom: 25px;
+}
+.about .my-price .basic button:hover {
+    background-color: #000;
+    color: #fff;
+}
+.about .my-price .pro {
+    width: 49%;
+    background-color: #fff;
+    opacity: 0.60;
+}
+.about .my-price .pro:hover {
+    opacity: 1;
+}
+.about .my-price .pro ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.about .my-price .pro ul li {
+    background-color: #fff;
+    color: #757575;
+    padding: 20px;
+    font-size: 15px;
+    border-bottom: 1px solid #ddd;
+}
+.about .my-price .pro ul .frst-li {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #616161;
+    color: #fff;
+    font-size: 24px;
+}
+.about .my-price .pro ul .lst-li {
+    padding-top: 30px;
+    padding-bottom: 15px;
+    font-weight: 400;
+    font-size: 30px;
+}
+.about .my-price .pro ul .lst-li span {
+    background-color: #fff;
+    color: #757575;
+    font-weight: normal;
+    font-size: 15px;
+
+}
+.about .my-price .pro button {
+    margin-bottom: 25px;
+}
+.about .my-price .pro button:hover {
+    background-color: #000;
+    color: #fff;
+}
+.about .my-repu {
+    margin-top: 40px;
+    position: relative;
+    margin-bottom: 150px;
+}
+.about .my-repu h2 {
+    font-weight: 400;
+    font-size: 24px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.about .my-repu .frst-flx {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.about .my-repu img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.about .my-repu .frst-flx .frst-txt,
+.about .my-repu .frst-flx .frst-txt span {
+    margin-left: 15px;
+    color: #757575;
+}
+.about .my-repu .frst-flx .frst-txt div,
+.about .my-repu .frst-flx .frst-txt p {
+    color: #757575;
+}
+/* End About */
+/* Start My Photos */
+.my-photos h2 {
+    font-weight: 400;
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+.my-photos hr {
+    width: 200px;
+    margin:20px 0;
+    opacity: 0.60;
+    border: 0;
+    border-top: 1px solid #eee;
+}
+.my-photos .mg-flx {
+    display:flex;
+}
+.my-photos .mg-flx .mg-frst {
+    width: 49%;
+    margin-right: 2%;
+}
+.my-photos .mg-flx .mg-lst {
+    width: 49%;
+}
+.my-photos .mg-flx img {
+    width: 100%;
+    margin-bottom: 8px;
+}
+/* End My Photos */
+/* Start Contact Me */
+.contact {
+    margin-top: 150px;
+}
+.contact .container h2 {
+    font-weight: 400;
+    font-size: 24px;
+    margin-bottom: 25px;
+}
+.contact .container hr {
+    width: 200px;
+    margin:20px 0;
+    opacity: 0.60;
+    border: 0;
+    border-top: 1px solid #eee;
+}
+.contact .container div {
+    margin-left: 10px;
+}
+.contact .container div i {
+    font-size: 32px;
+    margin: 8px 15px 22px 0;
+}
+.contact .container div span {
+    color:#757575;
+    font-size: 15px;
+    margin-left: 10px;
+}
+.contact .container form {
+    margin-top: 30px;
+    color: #757575;
+}
+.contact .container form label {
+    display: block;
+    color: #757575;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+.contact .container form input {
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    background-color: #fff;
+    padding: 16px 10px;
+    color: #000;
+}
+.contact .container form button {
+    padding: 12px 24px;
+    background-color: #f1f1f1;
+    color: #000;
+    text-align: center;
+    border: none;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+.contact .container form button i {
+    margin-left: 3px;
+    color: #000;
+    background-color: transparent;
+    font-size: 14px;
+}
+.contact .container form button:hover {
+    cursor: pointer;
+    background-color: #ccc;
+}
+/* End Contact Me */
+/* Start Footer */
+.footer {
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+.footer .icn {
+    margin-bottom: 20px;
+}
+.footer i {
+    color: #757575;
+    font-size: 24px;
+    margin-left: 3px;
+}
+.footer i:hover {
+    opacity: 0.60;
+}
+.footer span {
+    font-size: 15px;
+    color: #757575;
+}
+.footer span a {
+    color: #757575;
+    font-size: 15px;
+}
+.footer span a:hover {
+    color: #4CAF50;
+}
+/* End Footer */
